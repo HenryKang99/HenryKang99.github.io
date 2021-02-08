@@ -35,7 +35,7 @@
 
 	  alias: {
         '/.*/_sidebar.md': '/_sidebar.md',		// 只使用根目录下的 _sidebar.md
-		'/(.*)': 'https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io@master/$1'	// 配置 CDN
+		// '/(.*)': 'https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io@master/$1'	// 配置 CDN
       },
 
 	  count:{
@@ -83,21 +83,21 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
-  	const gitalk = new Gitalk({
+  	let props = {
       clientID: '83e42816f7a40c1058ea',
       clientSecret: 'aae410d2bbca4aec019cf0e6fdfecfb907322d4f',
       repo: 'blog_comment',
       owner: 'henrykang99',
       admin: ['henrykang99'],
-      ID: decodeURI(location.hash.split("?")[0]),
+      id: decodeURI(location.hash.split("?")[0]),
       perPage: 10,
+      pagerDirection: first,
       createIssueManually: false,
-      // facebook-like distraction free mode
-      distractionFreeMode: false
-    })
+    };
+    let gitalk = new Gitalk(props);
     window.addEventListener("hashchange", onHashChange);
     function onHashChange() {
-      gitalk.ID = decodeURI(location.hash.split("?")[0]);
+      props.id = decodeURI(location.hash.split("?")[0]);
     }
   </script>
 
