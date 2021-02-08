@@ -84,12 +84,16 @@
       repo: 'blog_comment',
       owner: 'henrykang99',
       admin: ['henrykang99'],
-      id: decodeURI(location.hash),
+      id: decodeURI(location.hash.split("?")[0]),
       perPage: 10,
       createIssueManually: false,
       // facebook-like distraction free mode
       distractionFreeMode: false
     })
+    window.addEventListener("hashchange", onHashChange);
+    function onHashChange() {
+      gitalk.id = decodeURI(location.hash.split("?")[0]);
+    }
   </script>
 
   <!-- Docsify v4 -->
