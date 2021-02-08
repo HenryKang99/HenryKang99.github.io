@@ -16,7 +16,7 @@
 </head>
 <body>
   <div id="app">
-  	<img src="https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io/img/friend_404.gif"/>
+  	<img src="https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io@0.9.9/img/friend_404.gif"/>
   </div>
 
   <script>
@@ -34,8 +34,8 @@
 	  search: 'auto',
 
 	  alias: {
-	  	// 只使用根目录下的 _sidebar.md
-        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_sidebar.md': '/_sidebar.md',		// 只使用根目录下的 _sidebar.md
+		'/(.*)': 'https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io@master/'	// 配置 CDN
       },
 
 	  count:{
@@ -67,22 +67,12 @@
         noData: 'No results!',
         paths: 'auto',
         // 搜索标题的最大层级, 1 - 6
-        depth: 3,
-        search : [
-          /* 格式：
-            '/',            // => /README.md
-	        '/guide',       // => /guide.md
-	        '/zh-cn/',      // => /zh-cn/README.md
-          */
-
-          '/',
-          '/others/使用Hexo搭建博客并部署到GiteePages',
-	    ],
+        depth: 6
       },
 
     }
   </script>
-  
+
   <!-- gitalk -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
