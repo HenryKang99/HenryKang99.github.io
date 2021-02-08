@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>HenryKang's Doc</title>
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="HenryKang的学习总结">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="icon" href="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/logo.png" type="image/x-icon">
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/logo.png" type="image/x-icon">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- 样式补充 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />  
 
 </head>
@@ -26,11 +26,11 @@
 	  loadSidebar: true,
 	  coverpage: true,
 	  notFoundPage: '_404.md',
-	  themeColor: '#AACCEE',
+	  themeColor: '#298BCC',
 	  auto2top: true,
 
-	  subMaxLevel: 6,		  // sidebar 渲染层级
-	  sidebarDisplayLevel: 2, // docsify-sidebar-collapse 插件 sidebar 默认展开层级
+	  subMaxLevel: 3,		  // sidebar 渲染md标题层级
+	  sidebarDisplayLevel: 1, // sidebar默认展开层级
 	  search: 'auto',
 
 	  alias: {
@@ -70,6 +70,11 @@
         depth: 6
       },
 
+      toc: {
+	    tocMaxLevel: 6,						// 显示标题层级
+	    target: 'h1, h2, h3, h4, h5, h6'
+	  },
+
     }
   </script>
 
@@ -84,7 +89,7 @@
       repo: 'blog_comment',
       owner: 'henrykang99',
       admin: ['henrykang99'],
-      id: decodeURI(location.hash.split("?")[0]),
+      ID: decodeURI(location.hash.split("?")[0]),
       perPage: 10,
       createIssueManually: false,
       // facebook-like distraction free mode
@@ -92,7 +97,7 @@
     })
     window.addEventListener("hashchange", onHashChange);
     function onHashChange() {
-      gitalk.id = decodeURI(location.hash.split("?")[0]);
+      gitalk.ID = decodeURI(location.hash.split("?")[0]);
     }
   </script>
 
@@ -116,6 +121,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
+  <script src="//unpkg.com/docsify-plugin-toc"></script>
 
   <!-- PWA -->
   <script>
