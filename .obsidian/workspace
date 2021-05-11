@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "260e3e43d14cbeca",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e06099b20de4e43",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "使用指南/格式化你的笔记.md",
+            "mode": "source"
+          }
+        },
+        "group": "b7b7820e33a44b06"
+      },
+      {
+        "id": "7daca2829f07f0b1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "使用指南/格式化你的笔记.md",
+            "mode": "preview"
+          }
+        },
+        "group": "b7b7820e33a44b06"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ea3e232ae2cef80",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c0812a3179f4cf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "150220078c0d4f21",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "809935c3b8c9c3e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 204
+  },
+  "right": {
+    "id": "3050959cb56a77f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b50b875491500256",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22553835a19a0901",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "使用指南/格式化你的笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "使用指南/格式化你的笔记.md",
+    "使用指南/内嵌文件.md",
+    "使用指南/预览与编辑模式.md",
+    "由此开始.md",
+    "Obsidian/Obsidian.md",
+    "高级用法/支持格式.md",
+    "使用指南/基本笔记记录.md",
+    "使用指南/导入数据.md",
+    "插件/页面预览.md",
+    "插件/星标.md"
+  ]
+}

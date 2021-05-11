@@ -225,7 +225,7 @@ class="org.springframework.context.support.ConversionServiceFactoryBean">
 
   - value：指定请求参数的name属性；
 
-- required：指定该参数是否必须，默认为true；
+  - required：指定该参数是否必须，默认为true；
 
 - `@RequestBody`：获取请求体
 

@@ -12,6 +12,8 @@
     * [JQuery](/JavaEE/FrontEnd/JQuery)
     * [JSP](/JavaEE/FrontEnd/JSP)
     * [Ajax与JSON](/JavaEE/FrontEnd/Ajax与JSON)
+    * [CSS定位](/JavaEE/FrontEnd/CSS定位)
+    * [Vue2.0](/JavaEE/FrontEnd/Vue2.0)
   * **BackEnd**
     * [Tomcat](/JavaEE/BackEnd/Tomcat)
     * [Servlet](/JavaEE/BackEnd/Servlet)
@@ -19,6 +21,7 @@
     * [MyBatis](/JavaEE/BackEnd/MyBatis)
     * [Spring](/JavaEE/BackEnd/Spring)
     * [SpringMVC](/JavaEE/BackEnd/SpringMVC)
+    * [SpringBoot](/JavaEE/BackEnd/SpringBoot)
     * [Docker](/JavaEE/BackEnd/Docker)
     * [Linux与Nginx](/JavaEE/BackEnd/Linux与Nginx)
 * **JVM**
@@ -36,15 +39,19 @@
   * [MySQL事务与并发控制和锁](/Database/MySQL事务与并发控制和锁)
   * [MySQL日志](/Database/MySQL日志)
   * [Redis入门](/Database/Redis入门)
+* **BigData**
+  * [Shell脚本](/BigData/Shell脚本)
+  * [Hadoop学习](/BigData/Hadoop学习)
 * **Networks**
   * [计算机网络小结](/Networks/计算机网络小结)
 * **OperatingSystem**
   * [进程和线程及其调度与通信](/OperatingSystem/进程和线程及其调度与通信)
   * [死锁及其检测和预防](/OperatingSystem/死锁及其检测和预防)
   * [操作系统的内存管理](/OperatingSystem/操作系统的内存管理)
-
+* [Vim学习](/OperatingSystem/Vim学习)
 * **English**
   * [英语语法小结](/English/英语语法小结)
 * **Others**
   * [Git学习笔记](/Others/Git学习笔记)
   * [使用Hexo搭建博客并部署到GiteePages](/Others/使用Hexo搭建博客并部署到GiteePages)
+
