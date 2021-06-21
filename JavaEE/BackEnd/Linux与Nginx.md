@@ -222,7 +222,7 @@ uname -a #显示本机详细信息
 
 - 使用SecureFX从左到右从未失手：
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/P8E3wEaeAqcq.png)
+![mark](D:/OneDrive/_mine/docsify/_img/P8E3wEaeAqcq.png)
 
 
 
@@ -266,7 +266,7 @@ source /etc/profile
 java -version
 ```
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/6QUjTl71UuoF.png)
+![mark](D:/OneDrive/_mine/docsify/_img/6QUjTl71UuoF.png)
 
 ##### 2. 安装 MySQL
 
@@ -398,7 +398,7 @@ mkdir /var/temp/nginx/client #创建工作目录
 
 - 核心配置文件 `conf/nginx.conf`
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/YtsLd228K1Me.png)
+![mark](D:/OneDrive/_mine/docsify/_img/YtsLd228K1Me.png)
 
 ```bash
 server {

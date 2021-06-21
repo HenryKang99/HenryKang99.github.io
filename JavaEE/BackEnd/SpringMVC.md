@@ -1,6 +1,6 @@
 ### 0verview
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/0CUlLFDFs64k.png" alt="mark" style="zoom: 33%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/0CUlLFDFs64k.png" alt="mark" style="zoom: 33%;" />
 
 > **注意区分三层架构与MVC模型的区别。**
 >

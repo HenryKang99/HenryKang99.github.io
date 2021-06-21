@@ -15,7 +15,7 @@
 
 #### 1.1 主内存与工作内存
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200917143254671.png" alt="image-20200917143254671" style="zoom: 67%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/image-20200917143254671.png" alt="image-20200917143254671" style="zoom: 67%;" />
 
 **说明：**
 
@@ -185,7 +185,7 @@ doSomethingWithConfig();
 
 #### 3.1 线程的6种状态
 
-![image-20200917162743845](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200917162743845.png)
+![image-20200917162743845](D:/OneDrive/_mine/docsify/_img/image-20200917162743845.png)
 
 - `新建`：创建了但尚未启动的线程。
 - `运行`：包括**正在运行**和就绪两种状态，即正在参与cpu时间片分配的线程。
@@ -220,7 +220,7 @@ doSomethingWithConfig();
 - 为什么指针后面还可以加俩标志位？
   - 因为对象是8字节对齐，后面三位都可以当做其他用处使用。
 
-![image-20200917171459222](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200917171459222.png)
+![image-20200917171459222](D:/OneDrive/_mine/docsify/_img/image-20200917171459222.png)
 
 #### 4.1 偏向锁
 

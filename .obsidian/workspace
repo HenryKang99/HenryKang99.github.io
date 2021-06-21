@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Others/使用Hexo搭建博客并部署到GiteePages.md",
+            "file": "_sidebar.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Others/使用Hexo搭建博客并部署到GiteePages.md",
+            "file": "_sidebar.md",
             "mode": "source"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/使用Hexo搭建博客并部署到GiteePages.md",
+                "file": "_sidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "31c648ee82c5989c",
   "lastOpenFiles": [
+    "_sidebar.md",
     "Others/使用Hexo搭建博客并部署到GiteePages.md",
+    "JavaEE/BackEnd/Tomcat.md",
+    "JavaEE/FrontEnd/HTML与CSS.md",
+    "README.md",
     "Others/python3.x语法与爬虫入门.md",
     "Others/Git学习笔记.md",
     "_404.md",
     "_coverpage.md",
-    "_sidebar.md",
-    "README.md",
-    "OperatingSystem/Linux/Vim学习.md",
-    "OperatingSystem/Linux/Shell脚本.md",
-    "JVM/JVM方法调用.md"
+    "OperatingSystem/Linux/Vim学习.md"
   ]
 }

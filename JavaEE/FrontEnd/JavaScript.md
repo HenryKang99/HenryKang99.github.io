@@ -443,7 +443,7 @@ var p1 = new Person("Li","Si",2345);
 
 #### 3.1 概念
 
-![DOM数](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/i4wjO7c4hlUL.png)
+![DOM数](D:/OneDrive/_mine/docsify/_img/i4wjO7c4hlUL.png)
 
 　　DOM（Document Object Model），文档对象模型。将文档的各个部分封装成为对象，使用这些对象可以动态的对文档的元素、属性、样式等进行操作；
 

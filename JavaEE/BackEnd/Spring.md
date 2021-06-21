@@ -119,7 +119,7 @@ public class TestGetBean {
 
 - 核心容器接口
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/LRBc7Al25nRe.png)
+![mark](D:/OneDrive/_mine/docsify/_img/LRBc7Al25nRe.png)
 
 
 

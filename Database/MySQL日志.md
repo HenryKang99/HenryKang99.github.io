@@ -47,7 +47,7 @@
 
 #### 2.1 redo log 如何恢复数据
 
-![redo log 循环写](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200927185223715.png)
+![redo log 循环写](D:/OneDrive/_mine/docsify/_img/image-20200927185223715.png)
 
 　　redo log 记录物理数据页的变化，崩溃恢复时，先将数据库当前的状态加载到内存中，然后从 check point 开始重放数据页的变化，即可恢复。
 
@@ -61,7 +61,7 @@
 
 　　如图所示：
 
-![两阶段提交](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200927172407603.png)
+![两阶段提交](D:/OneDrive/_mine/docsify/_img/image-20200927172407603.png)
 
 　　redo log 的记录被分成两个阶段，第一个 prepare 阶段，第二个 commit 阶段，redo log 的 commit 过程是整个事务 commit 过程中的一个子过程，不要混淆二者。
 

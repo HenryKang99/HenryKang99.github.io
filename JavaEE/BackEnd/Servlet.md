@@ -98,7 +98,7 @@
 
 - **servlet继承结构**
 
-  ![](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/20200214111224.png)
+  ![](D:/OneDrive/_mine/docsify/_img/20200214111224.png)
 
 　　抽象类`GenericServlet` 对servlet接口中除了其他方法做了空实现,  只留下service()方法作为抽象方法;
 

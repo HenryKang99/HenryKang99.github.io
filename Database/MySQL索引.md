@@ -54,7 +54,7 @@
 >
 > 5.每个节点中的元素从小到大排列，节点当中k-1个元素正好是k个孩子包含的元素的值域分划。
 
-![B-树](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200615133219040.png)
+![B-树](D:/OneDrive/_mine/docsify/_img/image-20200615133219040.png)
 
 <br>
 
@@ -68,7 +68,7 @@
 >
 > 3.所有的中间节点元素都同时存在于子节点，在子节点元素中是最大（或最小）元素。
 
-![B+树](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200615134318592.png)
+![B+树](D:/OneDrive/_mine/docsify/_img/image-20200615134318592.png)
 
 - 注意：
   - 在B-树中中间节点也包含数据，而在B+树中，只有叶子节点包含数据，所以B-树的查询不够稳定。

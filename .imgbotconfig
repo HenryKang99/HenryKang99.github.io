@@ -1,0 +1,10 @@
+{
+    "schedule": "weekly", // daily|weekly|monthly
+    "ignoredFiles": [
+        "*.gif",                   // ignore by extension
+        // "image1.png",              // ignore by filename
+        // "public/special_images/*", // ignore by folderpath
+        
+    ],
+    "aggressiveCompression": "true", // 使用有损压缩，默认false
+}

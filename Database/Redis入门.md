@@ -5,7 +5,7 @@
 　　NoSQL（Not Only SQL）意为不仅仅是SQL，泛指非关系型数据库。传统的关系型数据库在互联网行业日新月异的发展下，显示出了一些难以克服的问题，例如海量数据的高效率存储、高并发的读写、高可扩展性等问题，NoSQL就是为了弥补这些问题而诞生的。
 　　NoSQL按照其存储数据的格式可以分为：键值对存储、列存储、文档型存储、图形存储。具体可看下图：
 
-![Redis 数据结构](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/EbbtlN0pOJ6f.png)
+![Redis 数据结构](D:/OneDrive/_mine/docsify/_img/EbbtlN0pOJ6f.png)
 　　为什么说NoSql是对关系型数据库的弥补，因为他们是相互补充而不是对立的关系。我们从他们各自的优缺点就可以看出来：Sql（关系型数据库）提供对事务的支持，NoSql对事务不友好；Sql 可以实现多表之间的复杂查询，但也意味着表间关系复杂导致不容易扩展，NoSql 中的数据耦合性低非常容易扩展；Sql 读写效率不如NoSql，因为Sql数据存在硬盘中，而NoSql存在主存中，磁盘的IO对读写效率影响非常大。
 　　Redis就是属于第一种key-value型，他支持的数据类型包含：String，Hash，List，Set，SortedSet。应用场景：缓存热门内容、排行榜、在线好友列表、任务队列、网站访问统计、数据过期处理、分布式集群架构中session的分离。
 

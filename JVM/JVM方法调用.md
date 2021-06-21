@@ -39,7 +39,7 @@
 
 　　栈帧是虚拟机栈中的元素，一个方法的调用和返回对应一个栈帧的入栈和出栈。每个栈帧中包括：局部变量表、操作数栈、动态链接、方法返回地址、附加信息。其中局部变量表和操作数栈的大小编译时即可确定。
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200928001033555.png" alt="栈帧" style="zoom: 67%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/image-20200928001033555.png" alt="栈帧" style="zoom: 67%;" />
 
 #### **1.1 局部变量表**
 

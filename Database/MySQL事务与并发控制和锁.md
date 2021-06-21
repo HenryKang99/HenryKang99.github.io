@@ -89,7 +89,7 @@
 
 　　利用这个机制，查询时根据版本号判断某记录是不是当前事务能够看到的，若能看到，则返回该记录，若看不到，则使用undo log 回滚到第一个碰到的、当前事务能看到的记录，再将其返回。
 
-![RR下某事务的查询过程](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200616154920429.png)
+![RR下某事务的查询过程](D:/OneDrive/_mine/docsify/_img/image-20200616154920429.png)
 
 
 
@@ -108,7 +108,7 @@
 
 ##### 2.2.1 间隙锁
 
-![来自MySQL实战45讲](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200616160530580.png)
+![来自MySQL实战45讲](D:/OneDrive/_mine/docsify/_img/image-20200616160530580.png)
 
 　　RR 隔离级别在**当前读**的情况下无法解决幻读问题，串行化代价又太高，而究其原因，**幻读是因为其他事务在当前事务第一次查询时返回的结果集范围内部区域进行了增删改操作。**只通过行锁不能解决这个问题，MySQL使用**间隙锁**（Gap Lock）配合**行锁**来**改善**这个问题。
 

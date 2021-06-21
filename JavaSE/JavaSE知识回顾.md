@@ -212,7 +212,7 @@
 
   - 数组是一个特殊的对象，也继承自Object，它也封装了属性和一些方法，那它到底是什么类型呢？
 
-    ![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/hV6qqssz9bH0.png)
+    ![mark](D:/OneDrive/_mine/docsify/_img/hV6qqssz9bH0.png)
 
     ```java
     //通过getClass.getName看看它是什么类型
@@ -288,7 +288,7 @@
 
   - 优先级与结合性：
 
-    ![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/z1f5ElyVm8DI.png)
+    ![mark](D:/OneDrive/_mine/docsify/_img/z1f5ElyVm8DI.png)
 
     
 
@@ -654,7 +654,7 @@ public static void swap(Stu a,Stu b){
   - **抛出throws：**将控制权从错误产生的地方转移给能够处理这种情况的错误处理器；
 - 继承结构：
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/YEi7albKgRKK.png)
+![mark](D:/OneDrive/_mine/docsify/_img/YEi7albKgRKK.png)
 
 - Error：通常是系统内部的错误，如资源耗尽等，遇到此类错误，除了通知用户、保存当前数据外一般只能停机，我们对此没有控制能力；
 - Exception：
@@ -923,7 +923,7 @@ public static void swap(Stu a,Stu b){
 
 ### 5. 集合
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/76iRq4NO3oKA.png" alt="mark" style="zoom: 67%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/76iRq4NO3oKA.png" alt="mark" style="zoom: 67%;" />
 
 <br>
 
@@ -1284,7 +1284,7 @@ public static void swap(Stu a,Stu b){
 
 - **线程的状态**
 
-  ![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/g2Qt5IlyFOWy.png)
+  ![mark](D:/OneDrive/_mine/docsify/_img/g2Qt5IlyFOWy.png)
 
 1. New 新创建：即 new Thread(r) 后还没有调用start方法时，线程还没有开始运行；
 
@@ -1413,7 +1413,7 @@ public static void main(String[] args) {
 
   - `java.util.function`包下
 
-  ![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/a5aHeF0nttmC.png)
+  ![mark](D:/OneDrive/_mine/docsify/_img/a5aHeF0nttmC.png)
 
 
 
@@ -1447,7 +1447,7 @@ public static void main(String[] args) {
 
 　　Java 包结构：
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/4N3oz33zbRAK.png)
+![mark](D:/OneDrive/_mine/docsify/_img/4N3oz33zbRAK.png)
 
 　
 

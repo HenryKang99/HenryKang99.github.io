@@ -4,7 +4,7 @@
 
 ### 1. 运行时内存结构
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/fpI4PaPeoDLx.png" alt="mark" style="zoom:50%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/fpI4PaPeoDLx.png" alt="mark" style="zoom:50%;" />
 
 1. 程序计数器（PC）：指向下一条**字节码指令**的地址，线程私有，如果正在执行Native方法，则 PC 值为空；
    <br/>
@@ -28,7 +28,7 @@
    - JDK 7 中将常量池和静态变量移出到堆中；
    - JDK 8 中将剩余内容(类结构信息)移出到**元空间**中；
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/xygINplYKcFU.png" alt="mark" style="zoom: 67%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/xygINplYKcFU.png" alt="mark" style="zoom: 67%;" />
 <br/>
 
 - 运行时常量池：包含了编译期间各种**字面量**和**符号引用**；
@@ -73,7 +73,7 @@ public class VMSOF {
 
 ```
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/QYIRTj94zyGe.png)
+![mark](D:/OneDrive/_mine/docsify/_img/QYIRTj94zyGe.png)
 
 <br/>
 
@@ -97,7 +97,7 @@ public class MethodAreaOOM {
 }
 ```
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/NisOBtISSPoY.png)
+![mark](D:/OneDrive/_mine/docsify/_img/NisOBtISSPoY.png)
 
 <br/>
 
@@ -154,4 +154,4 @@ public class HeapOOM {
 }
 ```
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/2Vba35K8EFK1.png)
+![mark](D:/OneDrive/_mine/docsify/_img/2Vba35K8EFK1.png)

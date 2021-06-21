@@ -12,23 +12,23 @@
 
 ##### 移动光标
 
-![移动光标](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510095209315.png)
+![移动光标](D:/OneDrive/_mine/docsify/_img/image-20210510095209315.png)
 
 ##### 复制、粘贴、删除
 
-![复制、粘贴、删除](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510095633623.png)
+![复制、粘贴、删除](D:/OneDrive/_mine/docsify/_img/image-20210510095633623.png)
 
 ##### 搜索与取代
 
-![搜索与取代](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510095427939.png)
+![搜索与取代](D:/OneDrive/_mine/docsify/_img/image-20210510095427939.png)
 
 #### 编辑模式
 
-![编辑模式](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510095755876.png)
+![编辑模式](D:/OneDrive/_mine/docsify/_img/image-20210510095755876.png)
 
 #### 指令列模式
 
-![指令列模式](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510095915211.png)
+![指令列模式](D:/OneDrive/_mine/docsify/_img/image-20210510095915211.png)
 
 
 
@@ -49,19 +49,19 @@
 
 #### 区块选择
 
-![区块选择](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510150712676.png)
+![区块选择](D:/OneDrive/_mine/docsify/_img/image-20210510150712676.png)
 
 #### 多文件编辑
 
 使用 vim file1 file2 ...同时编辑多个文件，但同时只会显示一个文件。
 
-![多文件编辑](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510151022381.png)
+![多文件编辑](D:/OneDrive/_mine/docsify/_img/image-20210510151022381.png)
 
 #### 多窗口编辑
 
 当不同文件或同一个文件的不同部分需要对照查看时，可以选择使用该功能。用法如下：
 
-![多窗口编辑](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510151922341.png) 
+![多窗口编辑](D:/OneDrive/_mine/docsify/_img/image-20210510151922341.png) 
 
 #### 智能补全
 
@@ -77,5 +77,5 @@
 
 `~/.vimrc`：用于配置 vim 的环境，需要手动创建。下面是一些常用参数：
 
-![~/.vimrc 常用配置参数](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510153328107.png)
+![~/.vimrc 常用配置参数](D:/OneDrive/_mine/docsify/_img/image-20210510153328107.png)
 

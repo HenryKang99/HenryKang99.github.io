@@ -92,7 +92,7 @@ index ba4782a..f2d0b06 100644
 
 #### 工作区与版本库
 
-![mark](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/8YPxYOM6lAE0.png)
+![mark](D:/OneDrive/_mine/docsify/_img/8YPxYOM6lAE0.png)
 
 - 工作区add后到版本库中的暂存区,commit操作将暂存区的内容提交到HEAD指向的某分支上.
 

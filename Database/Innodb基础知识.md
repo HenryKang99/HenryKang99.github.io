@@ -7,7 +7,7 @@
 ### 1. MySQL的逻辑结构
 
 </br>
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200613134333333.png" alt="来自MySQL实战45讲" style="zoom:67%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/image-20200613134333333.png" alt="来自MySQL实战45讲" style="zoom:67%;" />
 
 　　
 
@@ -53,7 +53,7 @@
 
 #### 2.1 InnoDB 逻辑存储结构
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200613144446256.png" alt="InnoDB的逻辑存储结构" style="zoom: 80%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/image-20200613144446256.png" alt="InnoDB的逻辑存储结构" style="zoom: 80%;" />
 
 　　
 
@@ -85,7 +85,7 @@
 
 　　这里说的内存管理主要是指InnoDB对**缓冲区的管理**。
 
-<img src="https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200613191533027.png" alt="来自MySQL技术内幕" style="zoom:80%;" />
+<img src="D:/OneDrive/_mine/docsify/_img/image-20200613191533027.png" alt="来自MySQL技术内幕" style="zoom:80%;" />
 
 ##### 2.2.1 数据页和索引页的缓存管理
 
@@ -154,7 +154,7 @@
 
 　　两次写，就是在磁盘上保存上 redo log 中 check point 所指向的时机的物理磁盘页状态，崩溃恢复的时候使用这个里面的数据页。
 
-![来自MySQL技术内幕](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20200613221954326.png)
+![来自MySQL技术内幕](D:/OneDrive/_mine/docsify/_img/image-20200613221954326.png)
 
 <br>
 
