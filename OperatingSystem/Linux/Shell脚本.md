@@ -142,7 +142,7 @@ echo ${PATH}
    username=${username:-root}
    ```
 
-   ![替换功能](D:\OneDrive\图片\docs\image-20210510192806217.png)
+   ![替换功能](https://cdn.jsdelivr.net/gh/HenryKang99/blog_img/img/image-20210510192806217.png)
 
 ---
 

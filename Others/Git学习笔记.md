@@ -37,7 +37,7 @@ $ ls -ah
 
 ## 常规操作
 
-### 1.add与commit
+### add与commit
 
 > 目录中添加了一个readme.txt文件...
 > 内容为 I'm studying Git...
@@ -96,7 +96,7 @@ index ba4782a..f2d0b06 100644
 
 - 工作区add后到版本库中的暂存区,commit操作将暂存区的内容提交到HEAD指向的某分支上.
 
-### 2.版本回退
+### 版本回退
 
 - `git log` 显示从最近到最远的提交日志
   - 添加参数`--pretty=oneline`可以过滤Author和Date信息,只显示___commitId___和说明
@@ -143,7 +143,7 @@ $ git reflog
 ```
 
 
-### 3.撤销与删除
+### 撤销与删除
 
 - `git checkout -- readme.txt` 撤销__工作区__的修改
   - 若文件已经add到暂存区后又做了修改,则只会回退到add后的状态,就是把工作区版本还原成为暂存区版本.
@@ -164,7 +164,7 @@ $ git reflog
 
 > 使用GitHub或Gitee充当远程仓库,托管我们的代码,方便多人协作.
 
-### 1.创建远程仓库
+### 创建远程仓库
 
 - 首先需要创建SSH密钥对
   `rsa ssh-keygen -t -C "email@example.com"` + 仨回车.
@@ -176,7 +176,7 @@ $ git reflog
   - `git remote add origin git@github.com:HenryKang99/GitLearning.git`
     -上面`git@...`一串是远程仓库ssh地址,当然也可以使用HTTPS的方式,坏处就是速度慢而且每次都要输入密码.
 
-### 2.推送与克隆
+### 推送与克隆
 
 - `git push -u origin master`推送本地内容到远程仓库.
   - `-u`参数将本地的master与远程的master建立的关联,以后的push或pull就可以简化命令.
@@ -204,7 +204,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 > 前面一直使用的都是名叫`master`的主分支
 
-### 1.分支的创建,合并与删除
+### 分支的创建,合并与删除
 
 - `git checkout -b dev`创建并切换分支,相当于
   - `git branch dev` 和 `git checkout dev`
@@ -252,7 +252,7 @@ $ git branch
 * master
 ```
 
-### 2.解决冲突
+### 解决冲突
 
 > 在dev分支中修改devtest.txt文件,增加内容"test conflict...",add&commit;
 > 切换到master分支,新增内容Test conflict...",add&commit;
@@ -291,7 +291,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 * 1d9a89f a new readme file
 ```
 
-### 3.使用`git stash` 隐藏工作区工作
+### 使用`git stash` 隐藏工作区工作
 
 > stash 隐藏,贮藏.
 > issue 重要议题,争论的问题.

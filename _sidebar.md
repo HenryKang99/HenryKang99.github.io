@@ -40,15 +40,16 @@
   * [MySQL日志](/Database/MySQL日志)
   * [Redis入门](/Database/Redis入门)
 * **BigData**
-  * [Shell脚本](/BigData/Shell脚本)
   * [Hadoop学习](/BigData/Hadoop学习)
 * **Networks**
   * [计算机网络小结](/Networks/计算机网络小结)
 * **OperatingSystem**
+  * **Linux**
+    * [Shell脚本](/OperatingSystem/Linux/Shell脚本)
+    * [Vim学习](/OperatingSystem/Linux/Vim学习)
   * [进程和线程及其调度与通信](/OperatingSystem/进程和线程及其调度与通信)
   * [死锁及其检测和预防](/OperatingSystem/死锁及其检测和预防)
   * [操作系统的内存管理](/OperatingSystem/操作系统的内存管理)
-* [Vim学习](/OperatingSystem/Vim学习)
 * **English**
   * [英语语法小结](/English/英语语法小结)
 * **Others**

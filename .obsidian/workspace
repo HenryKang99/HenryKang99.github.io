@@ -4,29 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "7e06099b20de4e43",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "使用指南/格式化你的笔记.md",
-            "mode": "source"
-          }
-        },
-        "group": "b7b7820e33a44b06"
-      },
-      {
-        "id": "7daca2829f07f0b1",
+        "id": "31c648ee82c5989c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "使用指南/格式化你的笔记.md",
+            "file": "Others/使用Hexo搭建博客并部署到GiteePages.md",
             "mode": "preview"
           }
         },
-        "group": "b7b7820e33a44b06"
+        "group": "1638f93b8487759d"
+      },
+      {
+        "id": "a0657e27aacd7a8f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Others/使用Hexo搭建博客并部署到GiteePages.md",
+            "mode": "source"
+          }
+        },
+        "group": "1638f93b8487759d"
       }
     ],
     "direction": "vertical"
@@ -82,10 +81,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "使用指南/格式化你的笔记.md",
+                "file": "Others/使用Hexo搭建博客并部署到GiteePages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,16 +99,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "31c648ee82c5989c",
   "lastOpenFiles": [
-    "使用指南/格式化你的笔记.md",
-    "使用指南/内嵌文件.md",
-    "使用指南/预览与编辑模式.md",
-    "由此开始.md",
-    "Obsidian/Obsidian.md",
-    "高级用法/支持格式.md",
-    "使用指南/基本笔记记录.md",
-    "使用指南/导入数据.md",
-    "插件/页面预览.md",
-    "插件/星标.md"
+    "Others/使用Hexo搭建博客并部署到GiteePages.md",
+    "Others/python3.x语法与爬虫入门.md",
+    "Others/Git学习笔记.md",
+    "_404.md",
+    "_coverpage.md",
+    "_sidebar.md",
+    "README.md",
+    "OperatingSystem/Linux/Vim学习.md",
+    "OperatingSystem/Linux/Shell脚本.md",
+    "JVM/JVM方法调用.md"
   ]
 }
