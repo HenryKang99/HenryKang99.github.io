@@ -2,35 +2,34 @@
 
 <!-- * [名称](路由 "可指定title") -->
 
-* **JavaSE**
-  * [JavaSE知识回顾](/JavaSE/JavaSE知识回顾)
-  * [正则表达式](/JavaSE/正则表达式)
-* **JavaEE**
+* **Java**
+  * **Java基础**
+    * [JavaSE知识回顾](/Java/JavaBasic/JavaSE知识回顾)
+    * [正则表达式](/Java/JavaBasic/正则表达式)
+    * [JVM运行时内存结构](/Java/JavaBasic/JVM运行时内存结构)
+    * [JVM内存模型与锁优化](/Java/JavaBasic/JVM内存模型与锁优化)
+    * [JVM类加载机制](/Java/JavaBasic/JVM类加载机制)
+    * [JVM方法调用](/Java/JavaBasic/JVM方法调用)
+    * [对象的创建与内存结构](/Java/JavaBasic/对象的创建与内存结构)
+    * [垃圾收集器](/Java/JavaBasic/垃圾收集器)
   * **FrontEnd**
-    * [HTML与CSS](/JavaEE/FrontEnd/HTML与CSS)
-    * [JavaScript](/JavaEE/FrontEnd/JavaScript)
-    * [JQuery](/JavaEE/FrontEnd/JQuery)
-    * [JSP](/JavaEE/FrontEnd/JSP)
-    * [Ajax与JSON](/JavaEE/FrontEnd/Ajax与JSON)
-    * [CSS定位](/JavaEE/FrontEnd/CSS定位)
-    * [Vue2.0](/JavaEE/FrontEnd/Vue2.0)
+    * [HTML与CSS](/Java/FrontEnd/HTML与CSS)
+    * [JavaScript](/Java/FrontEnd/JavaScript)
+    * [JQuery](/Java/FrontEnd/JQuery)
+    * [JSP](/Java/FrontEnd/JSP)
+    * [Ajax与JSON](/Java/FrontEnd/Ajax与JSON)
+    * [CSS定位](/Java/FrontEnd/CSS定位)
+    * [Vue2.0](/Java/FrontEnd/Vue2.0)
   * **BackEnd**
-    * [Tomcat](/JavaEE/BackEnd/Tomcat)
-    * [Servlet](/JavaEE/BackEnd/Servlet)
-    * [Maven](/JavaEE/BackEnd/Maven)
-    * [MyBatis](/JavaEE/BackEnd/MyBatis)
-    * [Spring](/JavaEE/BackEnd/Spring)
-    * [SpringMVC](/JavaEE/BackEnd/SpringMVC)
-    * [SpringBoot](/JavaEE/BackEnd/SpringBoot)
-    * [Docker](/JavaEE/BackEnd/Docker)
-    * [Linux与Nginx](/JavaEE/BackEnd/Linux与Nginx)
-* **JVM**
-  * [JVM运行时内存结构](/JVM/JVM运行时内存结构)
-  * [JVM内存模型与锁优化](/JVM/JVM内存模型与锁优化)
-  * [JVM类加载机制](/JVM/JVM类加载机制)
-  * [JVM方法调用](/JVM/JVM方法调用)
-  * [对象的创建与内存结构](/JVM/对象的创建与内存结构)
-  * [垃圾收集器](/JVM/垃圾收集器)
+    * [Tomcat](/Java/BackEnd/Tomcat)
+    * [Servlet](/Java/BackEnd/Servlet)
+    * [Maven](/Java/BackEnd/Maven)
+    * [MyBatis](/Java/BackEnd/MyBatis)
+    * [Spring](/Java/BackEnd/Spring)
+    * [SpringMVC](/Java/BackEnd/SpringMVC)
+    * [SpringBoot](/Java/BackEnd/SpringBoot)
+    * [Docker](/Java/BackEnd/Docker)
+    * [Linux与Nginx](/Java/BackEnd/Linux与Nginx)
 * **Database**
   * [关系数据库设计与范式](/Database/关系数据库设计与范式)
   * [MySQL基础语法](/Database/MySQL基础语法)
@@ -40,12 +39,15 @@
   * [MySQL日志](/Database/MySQL日志)
   * [Redis入门](/Database/Redis入门)
 * **BigData**
-  * [Hadoop学习](/BigData/Hadoop学习)
+  * [Hadoop入门与环境搭建](/BigData/Hadoop入门与环境搭建)
+  * [Hadoop-HDFS](/BigData/Hadoop_HDFS)
+  * [Hadoop-MapReduce](/BigData/Hadoop_MapReduce)
+  * [Hadoop-YARN](/BigData/Hadoop_YARN)
 * **Networks**
   * [计算机网络小结](/Networks/计算机网络小结)
 * **OperatingSystem**
   * **Linux**
-    * [Shell脚本](/OperatingSystem/Linux/Shell脚本)
+    * [Shell脚本学习](/OperatingSystem/Linux/Shell脚本)
     * [Vim学习](/OperatingSystem/Linux/Vim学习)
   * [进程和线程及其调度与通信](/OperatingSystem/进程和线程及其调度与通信)
   * [死锁及其检测和预防](/OperatingSystem/死锁及其检测和预防)
@@ -55,4 +57,5 @@
 * **Others**
   * [Git学习笔记](/Others/Git学习笔记)
   * [使用Hexo搭建博客并部署到GiteePages](/Others/使用Hexo搭建博客并部署到GiteePages)
+  * [投资与理财](/Others/投资与理财.md)
 

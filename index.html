@@ -27,11 +27,20 @@
           hook.afterEach((
             function(html, next) {
               var t = document.createElement("div");
+              var relativeExp = RegExp(location.href.split("#")[0] + location.hash.split("/")[1] +"\/_img\/", "i");
+              var absoluteExp = /file:\/\/\/D:\/OneDrive\/_mine\/docsify\/_img\//i;
+              var prefix = "https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io@master/_img/";
                 t.innerHTML = html;
                 const imgs = [];
                 imgs.push(...t.getElementsByTagName("img"));
                 for (var i = 0; i < imgs.length; i++) {
-                  imgs[i].src = imgs[i].src.replace(/file:\/\/\/D:\/OneDrive\/_mine\/docsify\/_img\//g, "https://cdn.jsdelivr.net/gh/HenryKang99/HenryKang99.github.io@master/_img/")               
+                  //第一类给相对路径添加前缀
+                  if(relativeExp.test(imgs[i].src)){
+                    imgs[i].src = imgs[i].src.replace(relativeExp, prefix) 
+                  }else if(absoluteExp.test(imgs[i].src)){
+                    //第二类将绝对路径替换
+                    imgs[i].src = imgs[i].src.replace(absoluteExp, prefix)     
+                  }
                 }
                 next(t.innerHTML)
             }
@@ -106,7 +115,7 @@
       owner: 'henrykang99',
       admin: ['henrykang99'],
       // gitalk使用该id作为issue的标签来标识对应的页面
-      // 使用散列值以防止id过长导致创建issue失败
+      // 拆解uri以防止hash模式下多个id映射到同一页面
       id: decodeURI(location.hash.split("?")[0]),
       perPage: 10,
       pagerDirection: 'first',
